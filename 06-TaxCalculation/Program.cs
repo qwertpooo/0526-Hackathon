@@ -9,7 +9,7 @@
             string input = Console.ReadLine();
 
             // 2. 將字串轉換為 Decimal 型別
-            // 講義提到 C# 是強型別語言，從 Console 讀取的是 string，必須轉換才能運算 [7]
+            // 從 Console 讀取的是 string，必須轉換才能運算
             if (decimal.TryParse(input, out decimal income))
             {
                 decimal tax = 0;
@@ -45,7 +45,7 @@
                 Console.WriteLine($"您的年收入為：{income:N0} 元");//N千分位符號0保留零位小數(只保留整數)
                 Console.WriteLine($"應繳納稅額為：{tax:N0} 元");
             }
-            else
+            else//輸入非數字等等讓轉換失敗
             {
                 Console.WriteLine("輸入格式錯誤，請輸入數字。");
             }
