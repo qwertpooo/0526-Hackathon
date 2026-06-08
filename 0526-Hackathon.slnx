@@ -2,4 +2,6 @@
   <Project Path="01-ContentChange/01-ContentChange.csproj" />
   <Project Path="03-Caculation/03-Caculation.csproj" Id="1acec13c-c47f-4038-844d-e11f09f3d6cd" />
   <Project Path="04-NumberGuessing/04-NumberGuessing.csproj" Id="726f4964-d137-4ab1-b35b-81ea159d6bd1" />
+  <Project Path="05-Numerology/05-Numerology.csproj" Id="50843b5c-12a2-4fcc-8210-dd2baba48841" />
+  <Project Path="06-TaxCalculation/06-TaxCalculation.csproj" Id="1208557a-333c-419d-952f-d8a3be456af4" />
 </Solution>
